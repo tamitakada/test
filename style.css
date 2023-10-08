@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide-container {
+  height: 200px;
+  width: 300%;
+  overflow: hidden;
+  display: flex;
+}
+
+.slide {
+  flex: 1;
+  height: 100%;
+  transition: transform 0.5s;
+}
+
+.slide-0 { background-color: red; }
+.slide-1 { background-color: blue; }
+.slide-2 { background-color: green; }
